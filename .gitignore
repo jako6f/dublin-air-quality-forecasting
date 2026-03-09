@@ -1,0 +1,25 @@
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+.pytest_cache/
+.venv/
+.idea/
+.vscode/
+
+# Python artifacts
+*.py[cod]
+
+# Jupyter and temporary outputs
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Common large temporary data files
+*.part
+*.download
+*.cache
+
+# Environment files
+.env

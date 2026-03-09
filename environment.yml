@@ -1,0 +1,13 @@
+name: dublin-air-quality-forecasting
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - jupyter
+  - notebook
+  - jupyterlab
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
