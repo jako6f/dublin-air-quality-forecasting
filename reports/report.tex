@@ -1,0 +1,154 @@
+\documentclass[11pt]{article}
+
+% ---------- Encoding & fonts ----------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[a4paper,margin=1in]{geometry}
+
+% ---------- Core packages ----------
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{float}
+\usepackage{titlesec}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{fancyhdr}
+\usepackage{lipsum}
+\usepackage[hidelinks]{hyperref}
+
+% ---------- Styling ----------
+\setstretch{1.1}
+\setlength{\parindent}{0pt}
+\setlength{\headheight}{14pt}
+
+\definecolor{accent}{HTML}{1F4E79}
+
+\titleformat{\section}
+{\Large\bfseries\color{accent}}
+{\thesection.}{0.5em}{}
+
+\titleformat{\subsection}
+{\large\bfseries\color{accent}}
+{\thesubsection}{0.5em}{}
+
+% ---------- Header / footer ----------
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Intro to Machine Learning Group Project}
+\fancyhead[R]{Dublin Air Quality Forecasting}
+\fancyfoot[C]{\thepage}
+
+% ---------- Figure placeholder ----------
+\newcommand{\placeholderfigure}[2]{
+	\begin{figure}[H]
+		\centering
+		\fbox{
+			\begin{minipage}[c][#2][c]{0.82\textwidth}
+				\centering
+				\vspace{0.5em}
+				{\large Figure Placeholder}\\[0.5em]
+				{\small Replace with final figure/image}
+				\vspace{0.5em}
+			\end{minipage}
+		}
+		\caption{#1}
+	\end{figure}
+}
+
+% ---------- Cover page ----------
+\begin{document}
+	
+	\begin{titlepage}
+		\centering
+		\vspace*{2cm}
+		
+		{\Huge\bfseries\color{accent}
+			Forecasting Next-Day PM2.5 in Dublin Using Mobile Air Quality, Weather, and Traffic Data\par}
+		
+		\vspace{1.2cm}
+		
+		{\Large Intro to Machine Learning Group Project\par}
+		
+		\vspace{1.8cm}
+		
+		\fbox{
+			\begin{minipage}[c][6cm][c]{0.82\textwidth}
+				\centering
+				{\Large Cover Image Placeholder}\\[0.5em]
+				{\small Replace with final cover image if desired}
+			\end{minipage}
+		}
+		
+		\vfill
+		
+		\begin{tabular}{>{\bfseries}p{4cm}p{9cm}}
+			Module: & Intro to Machine Learning \\
+			Programme: & MSc in Applied Social Data Science \\
+			Institution: & Trinity College Dublin \\
+			Authors: & Ellen Beattie, Jakob Lütkemeier, Roudra Sarkar, Rosalie LaCroix \\
+			Date: & \today \\
+		\end{tabular}
+		
+		\vspace{1cm}
+	\end{titlepage}
+	
+	% ---------- Main body ----------
+	\section{Objective and motivation}
+	
+	\lipsum[1-2]
+	
+	\section{Data}
+	
+	\lipsum[3]
+	
+	\subsection{Google Air View data}
+	\lipsum[4]
+	
+	\placeholderfigure{Placeholder caption for Air View data overview.}{6cm}
+	
+	\subsection{Weather and traffic data}
+	\lipsum[5]
+	
+	\begin{table}[H]
+		\centering
+		\caption{Placeholder table for dataset summary.}
+		\begin{tabular}{p{4cm}p{3cm}p{3cm}p{3cm}}
+			\toprule
+			Dataset & Time coverage & Granularity & Key variables \\
+			\midrule
+			Google Air View & Lorem ipsum & Lorem ipsum & Lorem ipsum \\
+			Weather dataset & Lorem ipsum & Lorem ipsum & Lorem ipsum \\
+			Traffic dataset & Lorem ipsum & Lorem ipsum & Lorem ipsum \\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+	
+	\section{Factor choice}
+	
+	\lipsum[6-8]
+	
+	\section{Method}
+	
+	\lipsum[9-12]
+	
+	\placeholderfigure{Placeholder caption for modelling pipeline or workflow diagram.}{6cm}
+	
+	\section{Results}
+	
+	\lipsum[13]
+	
+	\placeholderfigure{Placeholder caption for main results figure.}{6cm}
+
+	
+	\lipsum[14]
+	
+	\section{Discussion and recommendation}
+	
+	\lipsum[15-17]
+	
+	\placeholderfigure{Placeholder caption for discussion-related figure or map.}{6cm}
+	
+\end{document}
