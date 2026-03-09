@@ -1,10 +1,10 @@
 # Dublin Air Quality Forecasting
 
-This repository contains the working materials for a Trinity College Dublin MSc group project for the module *Intro to Machine Learning*. The project focuses on forecasting next-day air pollution in Dublin, with particular emphasis on PM2.5, using Google Air View measurements alongside weather data. The repository is intentionally lightweight so the team can collaborate without unnecessary tooling or overhead.
+This repository contains the working materials for a Trinity College Dublin MSc Applied Social Data Science group project for the module *Intro to Machine Learning*. The project focuses on forecasting next-day air pollution in Dublin, with particular emphasis on PM2.5, using Google Air View measurements alongside weather data. 
 
 ## Research Question
 
-Can we use historical air pollution and weather data to forecast next-day PM2.5 levels in Dublin with a simple, reproducible machine learning workflow?
+Can we use historical air pollution and weather/traffic data to forecast next-day PM2.5 levels in Dublin with a reproducible machine learning workflow?
 
 ## Repository Structure
 
@@ -28,13 +28,14 @@ dublin-air-quality-forecasting/
 ## Setup
 
 1. Clone the repository using GitHub Desktop or `git clone git@github.com:jako6f/dublin-air-quality-forecasting.git`.
-2. Create the conda environment:
+2. Open the project folder in command line interface (via `cd` command)
+3.  Create the conda environment:
    ```bash
    conda env create -f environment.yml
    conda activate dublin-air-quality-forecasting
    ```
-3. Launch JupyterLab or Notebook from the repository root.
-4. Open `notebooks/dublin_air_quality_forecasting.ipynb`.
+4. Launch JupyterLab or Notebook from the repository root.
+5. Open `notebooks/dublin_air_quality_forecasting.ipynb`.
 
 ## Working Workflow
 
