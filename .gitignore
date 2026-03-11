@@ -23,3 +23,7 @@ __pycache__/
 
 # Environment files
 .env
+
+# Keep raw datasets local
+data/raw/*
+!data/raw/.gitkeep
