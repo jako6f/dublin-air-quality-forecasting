@@ -1,13 +1,15 @@
 name: dublin-air-quality-forecasting
 channels:
-  - conda-forge
+  - defaults
 dependencies:
-  - python
-  - jupyter
-  - notebook
-  - jupyterlab
-  - pandas
   - numpy
   - matplotlib
+  - pandas
+  - notebook
+  - python
+  - jupyter
+  - jupyterlab
   - seaborn
   - scikit-learn
+  - folium
+prefix: /opt/anaconda3/envs/dublin-air-quality-forecasting
