@@ -9,6 +9,7 @@
 \UseTblrLibrary{booktabs}
 \usepackage{colortbl}
 \usepackage{xcolor}
+\usepackage{hyperref}
 
 \mode<presentation>
 {
@@ -17,21 +18,95 @@
 	\usefonttheme{serif}  % or try serif, structurebold, ...
 	\setbeamertemplate{navigation symbols}{}
 	\setbeamertemplate{caption}[numbered]
+	\setbeamertemplate{footline}{
+		\leavevmode%
+		\hbox{%
+			\hfill
+			\usebeamerfont{footline}
+			\insertframenumber{} / \inserttotalframenumber
+			\hspace{0.5cm}
+		}
+	}
 } 
-
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	urlcolor=blue
+}
 
 %Information to be included in the title page:
 \title{Forecasting Next-Day PM2.5 in Dublin Using Mobile Air Quality, Weather, and Traffic Data}
-\author{Ellen Beattie, Jakob Lutkemeier, Roudra Sarkar, Rosalie LaCroix}
+\author{Jakob Lutkemeier, Rosalie LaCroix, Ellen Beattie, Roudra Sarkar}
 \institute{Trinity College Dublin}
 \date{April 2, 2026}
 
 \begin{document}
 	
 	\frame{\titlepage}
+		
+	\begin{frame}
+		\frametitle{Objective and motivation}
+		\begin{itemize}
+		\item Research Question: Can next-day air pollution in Dublin be predicted from recent pollution levels, weather and traffic conditions, and what does this imply for DCC’s monitoring and intervention strategy?
+		\item Target Variable of Interest:  Particulate matter pollution, specifically PM2.5, particles with a size (diameter) of less than 2.5 micrometers
+		\item PM2.5 has been identified as the main contributor to poor health from air pollution as the very small particles can penetrate deep into the respiratory system, contributing to more pollution-related deaths than than ozone (\href{https://ourworldindata.org/air-pollution-sources\#article-citation}{Our World in Data 2025})
+		\item We aimed to create an accurate forecasting model that can predict next day PM2.5 levels, to support Dublin City Council in their monitoring and prevention of air pollution 
+		(\href{https://www.dublincity.ie/environment-and-climate-action/controlling-air-pollution}{DCC Controlling Air Pollution})
+		\end{itemize}
+	\end{frame}
 	
 	\begin{frame}
-		\frametitle{Sample frame title}
+		\frametitle{Data Collected}
+		\begin{itemize}
+			\item Google Air View Pollution Data:
+			\item Metrological Data:
+			\item Traffic Data: 
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{Pre-Processing}
+		\begin{itemize} 
+			\item Aggregation and Cleaning:
+			\item Merging:
+			\item Limitations and Considerations: 
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{Method of Analysis}
+		\begin{itemize}
+			\item Models
+			\item Feature Selection
+			\item Baseline: 
+			\item Limitations and Considerations: 
+		\end{itemize}
+	\end{frame}
+	
+		\begin{frame}
+		\frametitle{Results}
+		\begin{itemize}
+			\item Graphs / Evaluation Metrics / Feature Importance
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{Results}
+		By model? Or comparison
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{Discussion and recommendation}
+		\begin{itemize}
+			\item Final Model Conclusion
+			\item Benefits of the model
+			\item Limitations and Improvements
+			\item Final Takeaway 
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{Any Questions?}
 		This is some text in the first frame. This is some text in the first frame. This is some text in the first frame.
 	\end{frame}
 	
