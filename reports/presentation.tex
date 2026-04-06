@@ -57,27 +57,37 @@
 	
 	\begin{frame}
 		\frametitle{Data Collected}
-		\begin{itemize}
-			\item Google Air View Pollution Data:
-			\item Metrological Data:
-			\item Traffic Data: 
-			\item Critical decision , the weekday , lagss (lag 1)
-		\end{itemize}
+		{\footnotesize\begin{itemize}
+			\item Google Air View Data: Street-view car pollutant measurements at 1 second intervals taken across 15 month period (May 2021- August 2022)
+			\item Weather Data: Met Eirean Daily Historical Data at Dublin Airport
+			\item Traffic Data: Traffic Volumes from SCATS Traffic Management System DCC
+		\end{itemize} 
+	}
 		\centering
-		
+		\begin{columns}
+			\column{0.5\textwidth}
+			\includegraphics[width=\linewidth]{figures/average_pm25_linechart.png}
+			\includegraphics[width=\linewidth]{figures/distribution_PM25.png}
+			
+			\column{0.5\textwidth}
+			\includegraphics[width=\linewidth]{ss/weather_data_load.png}
+			\includegraphics[width=\linewidth]{ss/traffic_data_load.png}
+		\end{columns}
 
-		\includegraphics[width=0.8\linewidth]{figures/average_pm25_linechart.png}
-		\includegraphics[width=0.8\linewidth]{figures/distribution_PM25.png}
+		
 	\end{frame}
 	
 	\begin{frame}
 		\frametitle{Pre-Processing}
+		{\footnotesize
 		\begin{itemize} 
-			\item Aggregation and Cleaning:
-			\item Merging:
-			\item Limitations and Considerations: 
+			\item Cleaning and Aggregation: matching time periods, removing missing/error PM2.5 values and aggregating air view and traffic data to daily Dublin target
+			\item Merging: the processed datasets were combined by date, checking basic structure and saving final dataset for forecasting 
+			\item Visualisation: the data was explored revealing coverage restrictions, relationships between variables, spread of the data etc. 
 		\end{itemize}
-		\includegraphics[width=\linewidth]{figures/weekday_avgPM25.png}
+	}
+		\centering
+		\includegraphics[width=0.8\linewidth]{figures/weekday_avgPM25.png}
 		\begin{tabular}{cc}
 			\includegraphics[width=0.5\linewidth]{figures/traffic_features_scatter.png} &
 			\includegraphics[width=0.5\linewidth]{figures/weather_features_scatter.png} \\
@@ -88,34 +98,27 @@
 		\frametitle{Method of Analysis}
 		\begin{block} 
 		\small
+		{\footnotesize
 		\begin{itemize}
-			\item Models
-			\item Feature Selection:
-			\item Baseline: 
-			\item Limitations and Considerations: 
+			\item Baseline Model: $\hat{y}_t = y_{t-1}$ simplest model predicting the observed test-day value based on the previous 
+			\item Feature Selection: temporal features such as lag, window size and exogenous features such as weather and traffic  
+			\item Models Selection: Linear Regression, Same-week-day-average-forecaster, Direct one-step-ahead Ridge ARX, Random Forest
 		\end{itemize}
-		
+		}
 		\end{block}
 		
 		%Images
 		\centering
-		\begin{tabular}{cc}
-		\includegraphics[width=0.5\linewidth]{figures/autocorrelation_vs_lag.png} &
-		\includegraphics[width=0.5\linewidth]{figures/target_vs_lag_scatter.png} \\
-		
+		\begin{tabular}{ccc}
+		\includegraphics[width=0.4\linewidth]{figures/autocorrelation_vs_lag.png} &
+		\includegraphics[width=0.4\linewidth]{figures/target_vs_lag_scatter.png} &
+		\includegraphics[width=0.2\linewidth]{figures/weather_features_pairplot.png}
 	
-		
 		\end{tabular}
 			
-		
 	\end{frame}
 	
-		\begin{frame}
-		\frametitle{Results}
-		\begin{itemize}
-			\item Graphs / Evaluation Metrics / Feature Importance
-		\end{itemize}
-	\end{frame}
+
 	
 	\begin{frame}
 		\begin{columns}
@@ -131,21 +134,43 @@
 			\includegraphics[width=\linewidth]{figures/ridgeARX_pred.png}
 		
 		\end{columns}
+		
+		{\footnotesize
+		\begin{itemize}
+			\item Baseline MSE: 14.96 RMSE: 3.86
+			\item Linear Regression MSE: 15.52 RMSE: 3.94
+			\item Same weekday MSE: 35.07 RMSE: 5.92
+			\item Ridge ARX MSE: 13.85 RMSE: 3.72
+			\item Random Forest RMSE:  4.62
+		\end{itemize}
+	}
 	\end{frame}
 	
 	\begin{frame}
 		\frametitle{Discussion and recommendation}
 		\begin{itemize}
-			\item Final Model Conclusion
-			\item Benefits of the model
+			\item Final Model 
+				\begin{itemize}
+					\item Promising ability to forecast average daily PM2.5 
+					\item Ridge ARX model had the best accuracy when tested
+				\end{itemize}
 			\item Limitations and Improvements
+				\begin{itemize}
+					\item Air view measurement continuity and consistency
+					\item Airport weather data location and granularity
+					\item Highly aggregated data 
+				\end{itemize}
 			\item Final Takeaway 
+				\begin{itemize}
+					\item With increased resources and data we would be able to create more accurate models to forecast PM2.5 levels
+					\item This could be extended to forecasting other pollutants such as Ozone, Carbon Monoxide and Nitrogen Dioxide to further help understand and improve air quality 
+				\end{itemize}
 		\end{itemize}
+		
 	\end{frame}
 	
 	\begin{frame}
 		\frametitle{Any Questions?}
-		This is some text in the first frame. This is some text in the first frame. This is some text in the first frame.
 	\end{frame}
 	
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.9.25)  5 APR 2026 17:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.9.25)  6 APR 2026 12:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1172,93 +1172,112 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: figures/average_pm25_linechart.png Graphic file (type png)
 <use figures/average_pm25_linechart.png>
 Package pdftex.def Info: figures/average_pm25_linechart.png  used on input line
- 71.
-(pdftex.def)             Requested size: 245.83282pt x 81.94313pt.
+ 78.
+(pdftex.def)             Requested size: 153.64493pt x 51.2117pt.
 <figures/distribution_PM25.png, id=33, 867.24pt x 289.08pt>
 File: figures/distribution_PM25.png Graphic file (type png)
 <use figures/distribution_PM25.png>
-Package pdftex.def Info: figures/distribution_PM25.png  used on input line 71.
-(pdftex.def)             Requested size: 245.83282pt x 81.94313pt.
+Package pdftex.def Info: figures/distribution_PM25.png  used on input line 78.
+(pdftex.def)             Requested size: 153.64493pt x 51.2117pt.
+<ss/weather_data_load.png, id=34, 911.65594pt x 210.03468pt>
+File: ss/weather_data_load.png Graphic file (type png)
+<use ss/weather_data_load.png>
+Package pdftex.def Info: ss/weather_data_load.png  used on input line 78.
+(pdftex.def)             Requested size: 153.64493pt x 35.39775pt.
+<ss/traffic_data_load.png, id=35, 664.73344pt x 208.52907pt>
+File: ss/traffic_data_load.png Graphic file (type png)
+<use ss/traffic_data_load.png>
+Package pdftex.def Info: ss/traffic_data_load.png  used on input line 78.
+(pdftex.def)             Requested size: 153.64493pt x 48.19931pt.
  [3
 
- <./figures/average_pm25_linechart.png> <./figures/distribution_PM25.png>]
-<figures/weekday_avgPM25.png, id=41, 867.24pt x 289.08pt>
+ <./figures/average_pm25_linechart.png> <./figures/distribution_PM25.png> <./ss
+/weather_data_load.png> <./ss/traffic_data_load.png>]
+<figures/weekday_avgPM25.png, id=46, 867.24pt x 289.08pt>
 File: figures/weekday_avgPM25.png Graphic file (type png)
 <use figures/weekday_avgPM25.png>
-Package pdftex.def Info: figures/weekday_avgPM25.png  used on input line 85.
-(pdftex.def)             Requested size: 307.28987pt x 102.42783pt.
-<figures/traffic_features_scatter.png, id=42, 578.16pt x 289.08pt>
+Package pdftex.def Info: figures/weekday_avgPM25.png  used on input line 95.
+(pdftex.def)             Requested size: 245.83282pt x 81.94313pt.
+<figures/traffic_features_scatter.png, id=47, 578.16pt x 289.08pt>
 File: figures/traffic_features_scatter.png Graphic file (type png)
 <use figures/traffic_features_scatter.png>
 Package pdftex.def Info: figures/traffic_features_scatter.png  used on input li
-ne 85.
+ne 95.
 (pdftex.def)             Requested size: 153.64493pt x 76.82196pt.
-<figures/weather_features_scatter.png, id=43, 578.16pt x 289.08pt>
+<figures/weather_features_scatter.png, id=48, 578.16pt x 289.08pt>
 File: figures/weather_features_scatter.png Graphic file (type png)
 <use figures/weather_features_scatter.png>
 Package pdftex.def Info: figures/weather_features_scatter.png  used on input li
-ne 85.
+ne 95.
 (pdftex.def)             Requested size: 153.64493pt x 76.82196pt.
 
-Overfull \hbox (23.99998pt too wide) in paragraph at lines 85--85
-[]  
+Overfull \hbox (23.99998pt too wide) in paragraph at lines 95--95
+ [] 
+ []
+
+
+Overfull \vbox (11.72197pt too high) detected at line 95
  []
 
 [4
 
  <./figures/weekday_avgPM25.png> <./figures/traffic_features_scatter.png> <./fi
 gures/weather_features_scatter.png>]
-<figures/autocorrelation_vs_lag.png, id=52, 578.16pt x 289.08pt>
+<figures/autocorrelation_vs_lag.png, id=57, 578.16pt x 289.08pt>
 File: figures/autocorrelation_vs_lag.png Graphic file (type png)
 <use figures/autocorrelation_vs_lag.png>
 Package pdftex.def Info: figures/autocorrelation_vs_lag.png  used on input line
- 111.
-(pdftex.def)             Requested size: 153.64493pt x 76.82196pt.
-<figures/target_vs_lag_scatter.png, id=53, 578.16pt x 289.08pt>
+ 119.
+(pdftex.def)             Requested size: 122.91406pt x 61.45404pt.
+<figures/target_vs_lag_scatter.png, id=58, 578.16pt x 289.08pt>
 File: figures/target_vs_lag_scatter.png Graphic file (type png)
 <use figures/target_vs_lag_scatter.png>
 Package pdftex.def Info: figures/target_vs_lag_scatter.png  used on input line 
-111.
-(pdftex.def)             Requested size: 153.64493pt x 76.82196pt.
+119.
+(pdftex.def)             Requested size: 122.91406pt x 61.45404pt.
+<figures/weather_features_pairplot.png, id=59, 867.24pt x 867.24pt>
+File: figures/weather_features_pairplot.png Graphic file (type png)
+<use figures/weather_features_pairplot.png>
+Package pdftex.def Info: figures/weather_features_pairplot.png  used on input l
+ine 119.
+(pdftex.def)             Requested size: 61.45703pt x 61.45404pt.
 
-Overfull \hbox (23.99998pt too wide) in paragraph at lines 111--111
+Overfull \hbox (35.99529pt too wide) in paragraph at lines 119--119
  [][] 
  []
 
 [5
 
- <./figures/autocorrelation_vs_lag.png> <./figures/target_vs_lag_scatter.png>] 
-[6
-
-]
-<figures/baseline_pred.png, id=66, 505.89pt x 216.81pt>
+ <./figures/autocorrelation_vs_lag.png> <./figures/target_vs_lag_scatter.png> <
+./figures/weather_features_pairplot.png>]
+<figures/baseline_pred.png, id=71, 505.89pt x 216.81pt>
 File: figures/baseline_pred.png Graphic file (type png)
 <use figures/baseline_pred.png>
-Package pdftex.def Info: figures/baseline_pred.png  used on input line 134.
+Package pdftex.def Info: figures/baseline_pred.png  used on input line 147.
 (pdftex.def)             Requested size: 153.64493pt x 65.8474pt.
-<figures/same_weekday_avg_pred.png, id=67, 505.89pt x 216.81pt>
+<figures/same_weekday_avg_pred.png, id=72, 505.89pt x 216.81pt>
 File: figures/same_weekday_avg_pred.png Graphic file (type png)
 <use figures/same_weekday_avg_pred.png>
 Package pdftex.def Info: figures/same_weekday_avg_pred.png  used on input line 
-134.
+147.
 (pdftex.def)             Requested size: 153.64493pt x 65.8474pt.
-<figures/randomforest_pred.png, id=68, 578.16pt x 252.945pt>
+<figures/randomforest_pred.png, id=73, 578.16pt x 252.945pt>
 File: figures/randomforest_pred.png Graphic file (type png)
 <use figures/randomforest_pred.png>
-Package pdftex.def Info: figures/randomforest_pred.png  used on input line 134.
+Package pdftex.def Info: figures/randomforest_pred.png  used on input line 147.
 
 (pdftex.def)             Requested size: 153.64493pt x 67.21922pt.
-<figures/ridgeARX_pred.png, id=69, 578.16pt x 252.945pt>
+<figures/ridgeARX_pred.png, id=74, 578.16pt x 252.945pt>
 File: figures/ridgeARX_pred.png Graphic file (type png)
 <use figures/ridgeARX_pred.png>
-Package pdftex.def Info: figures/ridgeARX_pred.png  used on input line 134.
+Package pdftex.def Info: figures/ridgeARX_pred.png  used on input line 147.
 (pdftex.def)             Requested size: 153.64493pt x 67.21922pt.
- [7
+ [6
 
  <./figures/baseline_pred.png> <./figures/same_weekday_avg_pred.png> <./figures
-/randomforest_pred.png> <./figures/ridgeARX_pred.png>] [8
+/randomforest_pred.png> <./figures/ridgeARX_pred.png>] [7
 
-] [9
+] [8
 
 ]
 \tf@nav=\write6
@@ -1270,8 +1289,7 @@ Package pdftex.def Info: figures/ridgeARX_pred.png  used on input line 134.
 \tf@snm=\write8
 \openout8 = `presentation.snm'.
 
-
-(presentation.aux)
+ (presentation.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -1280,22 +1298,26 @@ Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28475 strings out of 474486
- 619499 string characters out of 5743755
- 1932542 words of memory out of 5000000
- 50250 multiletter control sequences out of 15000+600000
- 563899 words of font info for 58 fonts, out of 8000000 for 9000
+ 28548 strings out of 474486
+ 621488 string characters out of 5743755
+ 1934542 words of memory out of 5000000
+ 50319 multiletter control sequences out of 15000+600000
+ 567143 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,12n,123p,410b,1031s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ellen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmr10.pfb><C:/Users/ellen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmr12.pfb><C:/Users/ellen/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmr6.pfb><C:/Users/ellen/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmr8.pfb><C:/Users/ellen/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on presentation.pdf (9 pages, 710724 bytes).
+cmmi6.pfb><C:/Users/ellen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmmi9.pfb><C:/Users/ellen/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb><C:/Users/ellen/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmr12.pfb><C:/Users/ellen/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/ellen/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ellen/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/ellen/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/ellen/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on presentation.pdf (8 pages, 1018693 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
- 19 named destinations out of 1000 (max. 500000)
- 98 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 138 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
 
