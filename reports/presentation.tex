@@ -151,19 +151,21 @@
 		\begin{itemize}
 			\item Final Model 
 				\begin{itemize}
-					\item Promising ability to forecast average daily PM2.5 
-					\item Ridge ARX model had the best accuracy when tested
+					\item Best full model: Ridge ARX
+					\item Only a small gain over the simple \texttt{t-1} baseline\\ \texttt{RMSE 3.72 vs 3.87}
+					\item Main signal: yesterday’s PM2.5; weather and traffic add only limited extra lift
 				\end{itemize}
-			\item Limitations and Improvements
+			\item Limitations
 				\begin{itemize}
-					\item Air view measurement continuity and consistency
-					\item Airport weather data location and granularity
-					\item Highly aggregated data 
+					\item Air View data is mobile, uneven, and weekday-only
+					\item Dublin Airport weather used as city-wide weather proxy
+					\item Traffic and weather are \textit{lagged by design}: predict tomorrow using what is known today
 				\end{itemize}
-			\item Final Takeaway 
+			\item Recommendation to DCC 
 				\begin{itemize}
-					\item With increased resources and data we would be able to create more accurate models to forecast PM2.5 levels
-					\item This could be extended to forecasting other pollutants such as Ozone, Carbon Monoxide and Nitrogen Dioxide to further help understand and improve air quality 
+					\item Use this as a light-touch next-day decision-support tool, not a standalone forecast
+					\item Prioritise better data coverage and monitoring design over more complex algorithms
+					\item Biggest gains likely from weekend coverage, stronger spatial balance, \textit{forecast} weather, and \textit{forward-looking} traffic inputs
 				\end{itemize}
 		\end{itemize}
 		
