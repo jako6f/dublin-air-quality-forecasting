@@ -49,7 +49,7 @@
 		\begin{itemize}
 		\item Research Question: Can next-day air pollution in Dublin be predicted from recent pollution levels, weather and traffic conditions, and what does this imply for DCC’s monitoring and intervention strategy?
 		\item Target Variable of Interest:  Particulate matter pollution, specifically PM2.5, particles with a size (diameter) of less than 2.5 micrometers
-		\item PM2.5 has been identified as the main contributor to poor health from air pollution as the very small particles can penetrate deep into the respiratory system, contributing to more pollution-related deaths than than ozone (\href{https://ourworldindata.org/air-pollution-sources\#article-citation}{Our World in Data 2025})
+		\item PM2.5 has been identified as the main contributor to poor health from air pollution as the very small particles can penetrate deep into the respiratory system, contributing to more pollution-related deaths than ozone (\href{https://ourworldindata.org/air-pollution-sources\#article-citation}{Our World in Data 2025})
 		\item We aimed to create an accurate forecasting model that can predict next day PM2.5 levels, to support Dublin City Council in their monitoring and prevention of air pollution 
 		(\href{https://www.dublincity.ie/environment-and-climate-action/controlling-air-pollution}{DCC Controlling Air Pollution})
 		\end{itemize}
@@ -100,7 +100,7 @@
 		\small
 		{\footnotesize
 		\begin{itemize}
-			\item Baseline Model: $\hat{y}_t = y_{t-1}$ simplest model predicting the observed test-day value based on the previous 
+			\item Baseline Model: $\hat{y}_t = y_{t-1}$ simplest model predicting the observed test-day value based on the previous day
 			\item Feature Selection: temporal features such as lag, window size and exogenous features such as weather and traffic  
 			\item Models Selection: Linear Regression, Same-week-day-average-forecaster, Direct one-step-ahead Ridge ARX, Random Forest
 		\end{itemize}
@@ -139,9 +139,9 @@
 		\begin{itemize}
 			\item Baseline MSE: 14.96 RMSE: 3.86
 			\item Linear Regression MSE: 15.52 RMSE: 3.94
-			\item Same weekday MSE: 35.07 RMSE: 5.92
-			\item Ridge ARX MSE: 13.85 RMSE: 3.72
-			\item Random Forest RMSE:  4.62
+			\item Same weekday average: MSE: 35.07 RMSE: 5.92
+			\item Ridge ARX: MSE: 13.85 RMSE: 3.72
+			\item Random Forest: RMSE:  4.62
 		\end{itemize}
 	}
 	\end{frame}
