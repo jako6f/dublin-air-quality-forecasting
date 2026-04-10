@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.24)  10 APR 2026 15:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  10 APR 2026 19:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -469,7 +469,7 @@ File: figures/heatmap_dublin_pollution.png Graphic file (type png)
 <use figures/heatmap_dublin_pollution.png>
 Package pdftex.def Info: figures/heatmap_dublin_pollution.png  used on input li
 ne 57.
-(pdftex.def)             Requested size: 341.43307pt x 287.49545pt.
+(pdftex.def)             Requested size: 295.90588pt x 249.16226pt.
 
 
 [1
@@ -483,19 +483,19 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.116 
-       [1]
+l.109 	\section{Factor choice}
+                               [1]
 
 [2]
-
-[3]
-<figures/ridgeARX_pred.png, id=76, 578.16pt x 252.945pt>
+<figures/ridgeARX_pred.png, id=71, 578.16pt x 252.945pt>
 File: figures/ridgeARX_pred.png Graphic file (type png)
 <use figures/ridgeARX_pred.png>
-Package pdftex.def Info: figures/ridgeARX_pred.png  used on input line 202.
+Package pdftex.def Info: figures/ridgeARX_pred.png  used on input line 191.
 (pdftex.def)             Requested size: 432.48051pt x 189.21039pt.
 
-Overfull \hbox (5.32869pt too wide) in paragraph at lines 218--219
+
+[3]
+Overfull \hbox (5.32869pt too wide) in paragraph at lines 206--207
 []\T1/cmr/m/n/10.95 The All-Dublin ag-gre-ga-tion is sen-si-ble for the main mo
 del, but it nec-es-sar-ily masks neighbourhood-
  []
@@ -503,42 +503,42 @@ del, but it nec-es-sar-ily masks neighbourhood-
 
 
 [4 <./figures/ridgeARX_pred.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 237--238
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
 []\T1/cmr/m/n/10.95 Breaking News, ``Dublin's air pol-lu-tion hits high-est lev
 -
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--238
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
 \T1/cmr/m/n/10.95 els since the 1980s.'' [][]$\T1/cmtt/m/n/10.95 https : / / ww
 w . breakingnews . ie / ireland /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--241
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
 []\T1/cmr/m/n/10.95 Met Éire-ann, Dublin Air-port daily data. [][]$\T1/cmtt/m/n
 /10.95 https : / / data . gov . ie / en _ GB / dataset /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--244
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
 []\T1/cmr/m/n/10.95 Smart Dublin, Traf-fic vol-umes from SCATS traf-fic man-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--244
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
 \T1/cmr/m/n/10.95 age-ment sys-tem (2021--2022). [][]$\T1/cmtt/m/n/10.95 https 
 : / / data . gov . ie / dataset /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--247
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
 []\T1/cmr/m/n/10.95 Our World in Data, Air pol-lu-tion sources. [][]$\T1/cmtt/m
 /n/10.95 https : / / ourworldindata . org /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--250
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
 []\T1/cmr/m/n/10.95 Dublin City Coun-cil, Con-trol-ling air pol-lu-tion. [][]$\
 T1/cmtt/m/n/10.95 https : / / www . dublincity . ie /
  []
@@ -555,12 +555,12 @@ Package rerunfilecheck Info: File `report.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  12099 strings out of 473190
- 191627 string characters out of 5715800
- 604364 words of memory out of 5000000
+ 191627 string characters out of 5715801
+ 604369 words of memory out of 5000000
  35196 multiletter control sequences out of 15000+600000
  570186 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,79p,1195b,492s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,79p,1195b,560s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
 /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
@@ -573,7 +573,7 @@ texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/te
 xlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texl
 ive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texliv
 e/2025/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on report.pdf (6 pages, 1190444 bytes).
+Output written on report.pdf (6 pages, 1189950 bytes).
 PDF statistics:
  163 PDF objects out of 1000 (max. 8388607)
  124 compressed objects within 2 object streams
