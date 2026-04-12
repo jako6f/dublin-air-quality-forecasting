@@ -184,11 +184,16 @@
 		\end{tabular}
 	\end{table}
 	
-	The direct one-step-ahead Ridge ARX model delivered the best held-out performance. However, the improvement over the simple persistence baseline is modest, which suggests that most short-term predictability comes from recent PM2.5 history. Weather and traffic add incremental signal, but they do not transform forecast accuracy.
+	The direct one-step-ahead Ridge ARX model delivered the best held-out performance. However, the improvement over the simple persistence baseline is modest, which suggests that most short-term predictability comes from recent PM2.5 history. Weather and traffic add incremental signal, but they do not transform forecast accuracy. The predictions from this model can be seen compared to test values in Figure \ref{figure:1}.
 	
 	This indicates that the strongest short-term predictive signal is temporal persistence. The random forest did not outperform the more interpretable linear-style models, suggesting that forecast gains came more from careful feature design than from additional model complexity.
 	
-	\includegraphics[width=0.95\textwidth]{ridgeARX_pred.png}
+	\begin{figure}[h]
+		\caption{Daily PM2.5 - Direct one-step-ahead Ridge Arx with Predictions}
+		\label{figure:1}
+		\centering
+		\includegraphics[width=0.955\textwidth]{ridgeARX_pred.png}
+	\end{figure}
 	
 	% ============================================================
 	% 6. DISCUSSION AND RECOMMENDATION
