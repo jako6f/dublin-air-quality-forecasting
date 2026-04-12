@@ -90,7 +90,7 @@
 	
 	\subsection*{Google Air View data}
 	
-	The core dataset consists of street-view car pollutant measurements recorded at one-second intervals whenever the vehicle was operating over a 15-month period (May 2021--August 2022), containing more than five million timestamped mobile observations linked to GPS coordinates. The data reflect daytime mobile observations taken across Dublin city, not a fixed-station monitoring system. After cleaning and aggregation, the final All-Dublin analytical dataset contained 286 observed Dublin weekdays.
+	The core dataset consists of street-view car pollutant measurements recorded at one-second intervals whenever the vehicle was operating over a 15-month period (May 2021--August 2022), containing more than five million timestamped mobile observations linked to GPS coordinates. The data reflects daytime mobile observations taken across Dublin city, not a fixed-station monitoring system. After cleaning and aggregation, the final All-Dublin analytical dataset contained 286 observed Dublin weekdays.
 	
 	A major strength of the Air View data is its unusually rich spatial detail. It provides high-resolution street-level measurements relevant to exposure patterns across Dublin. Its main weaknesses are that coverage is mobile, uneven, and weekday-only, with daily observation counts varying substantially. Rush-hour data before 9\,am and after 6\,pm, as well as weekend and public holiday observations, are absent. The data are therefore sufficient for a city-wide next-observed-weekday forecasting exercise, but not for a full seven-day, 24-hour ambient forecasting system, and are better suited to a Dublin-wide daily average target than to highly local forecasting.
 	
@@ -99,7 +99,7 @@
 	
 	\subsection*{Weather and traffic data}
 	
-	Weather data were taken from Met \'Eireann's Dublin Airport daily series~\cite{metdata}. These provided several promising candidate predictors, motivated by prior literature and later assessed in our own exploratory scatterplots, including windspeed, temperature, and evaporation-related measures~\cite{yang2020}. Traffic data come from the Sydney Coordinated Adaptive Traffic System (SCATS), which uses sensors at each traffic signal to detect vehicle presence~\cite{scatsdata}. The dataset provides total and average traffic volumes for the preceding hour. These data were initially available at region-day level and were later aligned to the Dublin-wide target through spatial aggregation.
+	Weather data were taken from Met \'Eireann's Dublin Airport daily series~\cite{metdata}. These provided several promising candidate predictors, motivated by prior literature and later assessed in our own exploratory scatterplots, including windspeed, temperature, and evaporation-related measures~\cite{yang2020}. Traffic data comes from the Sydney Coordinated Adaptive Traffic System (SCATS), which uses sensors at each traffic signal to detect vehicle presence~\cite{scatsdata}. The dataset provides total and average traffic volumes for the preceding hour. These data were initially available at region-day level and were later aligned to the Dublin-wide target through spatial aggregation.
 	
 	\vspace{2cm}
 	
